@@ -59,7 +59,7 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_France_King.sendMessage(Qr_Code_By_France_King.user.id, { text: '' + b64data });
 	
 				   let FLASH_MD_TEXT = `
-THANKYOU FOR CHOOSING ALONE MD
+THANKYOU FOR CHOOSING 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃
 🔙💚☯️♡𝐃𝐑𝐈𝐏 𝐅𝐀𝐌𝐈𝐋𝐘  .. 🤼 💫
   ╭━━━━❤━━━━╮
   💥VERY ACTIVE 🙅
