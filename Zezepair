@@ -213,7 +213,7 @@
 
 <!-- Background Video -->
 <video id="bg-video" autoplay muted loop playsinline>
-  <source src="https://files.catbox.moe/g6bwju.mp4" type="video/mp4">
+  <source src="https://files.catbox.moe/6pkygx.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -221,7 +221,7 @@
 <div class="typing-header">
   <svg viewBox="0 0 500 60">
     <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
-      THANK YOU FOR CHOOSING ALONE MD
+      THANK YOU FOR CHOOSING ZEZE47 MD
     </text>
   </svg>
 </div>
@@ -235,7 +235,7 @@
 <!-- Main Container -->
 <div class="container">
   <div class="box">
-    <h2>ALONE MD SESSION SCANNER</h2>
+    <h2>ZEZE47 MD SESSION SCANNER</h2>
     <p>Enter your number with country code</p>
     <div class="input-container">
       <input type="number" placeholder="255673xxxx" id="number" />
@@ -245,9 +245,9 @@
   </div>
 
   <div class="join-buttons">
-    <button onclick="window.open('https://chat.whatsapp.com/HcUtcJWefWLLGC0eHPbUzZ')">Join us today</button>
+    <button onclick="window.open('https://chat.whatsapp.com/GThzurSDIgi8LtBtZotWHn')">Join us today</button>
     <button onclick="window.open('https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r')">SUPPORT CHANNEL</button>
-    <button onclick="window.open('https://chat.whatsapp.com/HcUtcJWefWLLGC0eHPbUzZ')">SUPPORT GROUP</button>
+    <button onclick="window.open('https://chat.whatsapp.com/GThzurSDIgi8LtBtZotWHn')">SUPPORT GROUP</button>
   </div>
 
   <!-- Matrix Box -->
@@ -258,16 +258,27 @@
 </div>
 
 <!-- Audio Element -->
-<audio id="audio" loop>
-  <source src="https://files.catbox.moe/zvt5zs.mp3" type="audio/mp3" />
-</audio>
+<audio id="audio" loop></audio>
 
 <!-- JS Scripts -->
 <script>
+  const audioSources = [
+    "https://files.catbox.moe/ofpmo1.mp3",
+    "https://files.catbox.moe/b3u14w.mp3",
+    "https://files.catbox.moe/2fq0gi.mp4",
+    "https://files.catbox.moe/eckl98.mp4",
+    "https://files.catbox.moe/6359fd.mp4"
+  ];
+
   const audio = document.getElementById("audio");
   const icon = document.getElementById("audioIcon");
 
-  // Play audio on first user click
+  // Pick random audio source on each page load
+  const randomAudioSrc = audioSources[Math.floor(Math.random() * audioSources.length)];
+  audio.src = randomAudioSrc;
+  audio.load();
+
+  // Play audio on first user interaction
   window.addEventListener("DOMContentLoaded", () => {
     const enableAudio = () => {
       audio.play().then(() => {
@@ -329,11 +340,11 @@
   });
 
   const lines = [
-    "HELLO THIS IS ALONE MD BEST WHATSAPP BOT",
-    "Developed by Toputech to enhance your fun",
+    "HELLO THIS IS ZEZE47 MD BEST WHATSAPP BOT",
+    "Developed by Zezetech to enhance your fun",
     "Get connected and enjoy...",
     "Get updated by joining our giveaway channel....",
-    "~ welcome to ALONE MD ~"
+    "~ welcome to ZEZE47 MD ~"
   ];
 
   const container = document.getElementById("matrix-content");
