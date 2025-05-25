@@ -57,10 +57,10 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_France_King.sendMessage(Pair_Code_By_France_King.user.id, { text: ''+ b64data });
 
                let FLASH_MD_TEXT = `
-THANKYOU FOR CHOOSING 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃
-🔙💚☯️♡𝐃𝐑𝐈𝐏 𝐅𝐀𝐌𝐈𝐋𝐘  .. 🤼 💫
+WELCOME 🤗 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃
+🔙💚☯️♡ OUT CLAN  .. 🤼 💫
   ╭━━━━❤━━━━╮
-  💥VERY ACTIVE 🙅
+  💥 AVAILABLE 👍 🙅
       🕊️𝐂𝐥𝐞𝐚𝐧 𝐚𝐥𝐰𝐚𝐲𝐬🍏
   ╰━━━━🥺━━━━╯💚🔙
 ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r_
