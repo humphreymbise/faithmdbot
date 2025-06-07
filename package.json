@@ -1,14 +1,14 @@
 {
     "description": "zeze-sessions",
-    "main": "./zezetech.js",
+    "main": "./toputech.js",
   "engines" : { 
     "npm" : ">=9.7.2",
     "node" : ">=20.0.0"
     },
     "scripts": {
-    "start": "node zezetech.js"
+    "start": "node toputech.js"
   },
-  "author": "Zeze Tech",
+  "author": "Topu Tech",
   "license": "GPL-3.0 license",
   "dependencies": {
     "@whiskeysockets/baileys": "latest",
