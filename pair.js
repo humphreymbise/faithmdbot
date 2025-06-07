@@ -58,12 +58,12 @@ router.get('/', async (req, res) => {
 
                let FLASH_MD_TEXT = `
 WELCOME 🤗 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃
-🔙💚☯️♡ OUT CLAN  .. 🤼 💫
+💯 connecting  .. 🤼 💫
   ╭━━━━❤━━━━╮
-  💥 AVAILABLE 👍 🙅
-      🕊️𝐂𝐥𝐞𝐚𝐧 𝐚𝐥𝐰𝐚𝐲𝐬🍏
+  💥 AVAILABLE 👍 
+      
   ╰━━━━🥺━━━━╯💚🔙
-❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r_
+❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VbANIT5D8SDpK7oExi1v
 ║ 
 follow our channel to learn how to deploy..
 Repository available at our channel`
